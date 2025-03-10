@@ -1,0 +1,86 @@
+.containerReembolsos {
+  display: flex;
+}
+
+header {
+  width: 8vw;
+  height: 5vh;
+  display: flex;
+  // border: solid red;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mainReembolsos {
+  //border: solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 94vw;
+  height: 95vh;
+  div {
+    width: 60%;
+  }
+}
+
+.containerCards {
+  display: flex;
+  justify-content: space-between;
+  // border: solid green;
+  height: 20vh;
+  width: 60%;
+  margin-top: 1rem;
+}
+
+article {
+  border: solid #cbd4e1;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerStatus {
+  width: 60%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid #cbd4e1;
+  margin-top: 1rem;
+
+  div {
+    width: 15%;
+    height: 5vh;
+    // border: solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.imgSolicitados {
+  background-color: #00bedd;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.imgAnalises {
+  background-color: #e56700;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.imgAprovados {
+  background-color: #007a6a;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.imgAnalises {
+  background-color: #a60b2f;
+  border-radius: 6px;
+  padding: 6px;
+}

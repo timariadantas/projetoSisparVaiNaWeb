@@ -1,0 +1,154 @@
+.layoutSolicitacao {
+    display: flex;
+}
+
+.containerPrincipalSolicitacao {
+    width: 95vw;
+}
+
+.headerSolicitacao {
+    width: 20vw;
+    display: flex;
+}
+
+.mainSolicitacao {
+    width: 100%;
+}
+
+.formSolicitacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+//Estilizzação padrão para os inputs, select , label e textarea
+
+label {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #23282f;
+}
+
+input,
+select,
+textarea {
+    border-radius: 6px;
+    border: solid #cbd4e1 0.8px;
+    height: 4vh;
+    width: 100%;
+}
+
+//Estilizção do grupo1
+.grupo1 {
+    width: 35%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inputNome {
+    width: 45%;
+}
+
+.inputEmpresa {
+    width: 25%;
+}
+
+.inputPrestacao {
+    //  border: solid green;
+    width: 25%;
+}
+
+.inputMotivo {
+    // border: solid orange;
+    width: 100%;
+
+    textarea {
+        height: 10vh;
+    }
+}
+
+//Estilização da barra vertical
+
+.barraVertical {
+    background-color: #cbd4e1;
+    height: 25vh;
+    width: 0.1vw;
+}
+
+//Estilizção do grupo2
+
+.grupo2 {
+    width: 60%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.inputData {
+    width: 20%;
+}
+
+.tipoDeDespesas {
+    width: 30%;
+}
+
+.centroDeCusto {
+    width: 45%;
+}
+
+.ordem,
+.divisoes,
+.pep,
+.distancia {
+    width: 10%;
+}
+
+.moeda,
+.valorKm,
+.valorFaturado,
+.despesa {
+    width: 10%;
+}
+
+.botoes {
+    width: 13%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+
+    .botaoSalvar {
+        background-color: #001a3d;
+        color: #ffffff;
+        width: 4vw;
+        height: 4vh;
+    }
+    .botaoDeletar {
+        width: 2vw;
+        background-color: #00bedd;
+    }
+}
+
+//Estilização da tabela
+table {
+    width: 100%;
+    border: solid;
+    border-collapse: collapse;
+}
+
+//Cabeçalho
+th {
+    background-color: #cbd4e1;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #23282f;
+}
+
+th,
+td {
+    border: solid;
+    text-align: center;
+}

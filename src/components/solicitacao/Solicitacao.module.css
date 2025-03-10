@@ -1,0 +1,138 @@
+.containerPrincipalSolicitacao {
+  width: 95vw;
+}
+
+.headerSolicitacao {
+  display: flex;
+  width: 20vw;
+}
+
+.layoutSolicitacao {
+  display: flex;
+  border: 2px solid red;
+}
+
+.mainSolicitacao {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formSolicitacao {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+input, select, textarea {
+  border-radius: 6px;
+  border: solid #CBD4E1 0.8px;
+  height: 4vh;
+  width: 100%;
+}
+
+label {
+  color: #23282F;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+textarea {
+  height: 10vh;
+}
+
+.grupo1 {
+  width: 35%;
+  height: 25vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputNome {
+  width: 45%;
+}
+
+.inputEmpresa {
+  width: 25%;
+}
+
+.inputPrestacao {
+  width: 25%;
+}
+
+.inputMotivo {
+  width: 100%;
+}
+
+.barraVertical {
+  width: 0.1vw;
+  border: solid #CBD4E1 1px;
+  height: 25vh;
+}
+
+.grupo2 {
+  width: 60%;
+  height: 25vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputData {
+  width: 25%;
+}
+
+.despesas {
+  width: 30%;
+}
+
+.centroDeCusto {
+  width: 40%;
+}
+
+.ordem, .divisoes, .pep, .distancia {
+  width: 8%;
+}
+
+.moeda, .valorKm, .valorFaturado, .despesa {
+  width: 11%;
+}
+
+.botoes {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.botaoSalvar {
+  background-color: #001A3D;
+  color: #ffffff;
+  width: 5vw;
+}
+
+.botaoDeletar {
+  background-color: #00BEDD;
+  color: #ffffff;
+  width: 2vw;
+}
+
+table {
+  width: 100%;
+  border: solid;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #CBD4E1;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+td, th {
+  border: solid #F1F4F9 0.8px;
+  text-align: center;
+}/*# sourceMappingURL=Solicitacao.module.css.map */
