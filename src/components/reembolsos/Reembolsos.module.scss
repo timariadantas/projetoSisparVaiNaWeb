@@ -32,7 +32,17 @@ header {
   width: 60%;
   margin-top: 1rem;
 }
-
+.card {
+  width: 15vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid #cbd4e1;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
 article {
   border: solid #cbd4e1;
   width: 15vw;
@@ -83,4 +93,18 @@ article {
   background-color: #a60b2f;
   border-radius: 6px;
   padding: 6px;
+}
+.imgRejeitados {
+  background-color: #a60b2f;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.containerSistema {
+  width: 15vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  align-items: center;
 }

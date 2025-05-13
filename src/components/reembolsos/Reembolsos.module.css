@@ -78,4 +78,14 @@ article {
   background-color: #A60B2F;
   border-radius: 6px;
   padding: 6px;
-}/*# sourceMappingURL=Reembolsos.module.css.map */
+}
+.containerSistema {
+  width: 15vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+/*# sourceMappingURL=Reembolsos.module.css.map */
