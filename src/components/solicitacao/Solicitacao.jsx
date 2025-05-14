@@ -6,6 +6,9 @@ import Seta from "../../assets/Dashbord/Vector.png";
 import Deletar from "../../assets/Solicitacao/deletar.png";
 import Lixeira from "../../assets/Solicitacao/lixeira.png";
 import Motivo from "../../assets/Solicitacao/motivo.png";
+import Salvar from "../../assets/Solicitacao/+.png";
+import Check from "../../assets/Solicitacao/check.png";
+import Cancelar from"../../assets/Solicitacao/deletar.png";
 
 import Api from "../../Services/Api.jsx"  // importando a conexão
 
@@ -234,7 +237,7 @@ function Solicitacao() {
                   <option value="">1100110101 - FIN CONTABILIDADE MTZ</option>
                 </select>
               </div>
-              <div> className={styles.ordem}
+              <div className={styles.ordem}>
               <label htmlFor="ordemInterna">Ord. Int.</label>
                 <input
                   value={ordemInterna}
